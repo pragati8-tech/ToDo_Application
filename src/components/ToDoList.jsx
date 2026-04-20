@@ -17,11 +17,11 @@ function ToDoList({tasks,onAdd,onDelete,onToggle,onEdit}) {
             <div>
       {tasks.map((t) => (
         <ToDoItem
-          key={t.id}          // unique id — React ko chahiye
-          task={t}            // poora task object bhejo
-          onDelete={onDelete} // App wala delete
-          onToggle={onToggle} // App wala toggle
-          onEdit={onEdit}     // App wala edit
+          key={t.id}          
+          task={t}            
+          onDelete={onDelete} 
+          onToggle={onToggle} 
+          onEdit={onEdit}    
         />
       ))}
     </div>
