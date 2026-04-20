@@ -1,22 +1,22 @@
-export const todos = [
+export const todoList = [
    
 { 
-    id: Date.now(), 
+    id: 1, 
     text: "Learn HTML", 
     completed: true 
 },
 { 
-    id: Date.now(), 
+    id: 2, 
     text: "Learn CSS", 
     completed: true 
 },
 { 
-    id: Date.now(), 
+    id: 3, 
     text: "Learn JAVASCRIPT", 
     completed: true 
 },
 { 
-    id: Date.now(), 
+    id: 4, 
     text: "Learn REACT", 
     completed: false 
 },
