@@ -37,13 +37,13 @@ git clone https://github.com/pragati8-tech/ToDo_Application.git
 npm install
 
 
-### Step 4 — run App
+### Step 3 — run App
 
 
 npm run dev
 
 
-### Step 5 — open in Browser 
+### Step 4 — open in Browser 
 
 
 http://localhost:5173
